@@ -1,0 +1,16 @@
+A = imread('cameraman.tif');
+B = imcomplement(A);
+subplot(2,2,1);
+imshow(A);
+title('Original Image');
+subplot(2,2,2);
+imshow(B);
+title('Negative Image');
+C = imread('peppers.png');
+D = imcomplement(C);
+subplot(2,2,3);
+imshow(C);
+title('Original Image');
+subplot(2,2,4);
+imshow(D);
+title('Negative Image');
